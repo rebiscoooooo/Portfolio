@@ -55,7 +55,7 @@ src/
 1. Clone the repository or extract the project folder.
 2. Navigate to the project directory:
    ```bash
-   cd three-person-glass-portfolio
+   cd portfolio
    ```
 3. Install dependencies:
    ```bash
