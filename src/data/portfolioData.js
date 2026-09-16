@@ -4,6 +4,7 @@ import jayveeImg from '../assets/images/jayvee.jpg';
 import Project_1Img from '../assets/images/project_1.png';
 import Project_2Img from '../assets/images/project_2.png';
 import Project_3Img from '../assets/images/project_3.jpg';
+import Project_4Img from '../assets/images/project_4.jpg';
 
 export const members = [
   {
@@ -52,7 +53,7 @@ export const members = [
         technologies: ["PHP", "Tailwind CSS", "MySQL"],
         year: "2025",
         image: Project_1Img,
-        link: "www.infinite-limitless.com",
+        link: "https://www.infinite-limitless.com",
         github: "#"
       },
       {
@@ -64,13 +65,13 @@ export const members = [
         year: "2026",
         image: Project_2Img,
         link: "https://cyan-baboon-990324.hostingersite.com/",
-        github: "#"
+        github: "https://github.com/Aeyac/College_of_Education_Registrars_Office_e-Services_and_Request_Tracking_System.git"
       }
     ],
     socials: [
-      { id: 1, platform: "GitHub", url: "#" },
-      { id: 2, platform: "LinkedIn", url: "#" },
-      { id: 3, platform: "Facebook", url: "www.facebook.com/jayarsaturnodeguzman1" }
+      { id: 1, platform: "GitHub", url: "https://github.com/rebiscoooooo" },
+      { id: 2, platform: "LinkedIn", url: "https://www.linkedin.com/in/jay-ar-de-guzman-0b1151384/" },
+      { id: 3, platform: "Facebook", url: "https://www.facebook.com/jayarsaturnodeguzman1" }
     ]
   },
   {
@@ -116,7 +117,7 @@ export const members = [
         year: "2026",
         image: Project_2Img,
         link: "https://cyan-baboon-990324.hostingersite.com/",
-        github: "#"
+        github: "https://github.com/Aeyac/College_of_Education_Registrars_Office_e-Services_and_Request_Tracking_System.git"
       },
       {
         id: 2,
@@ -180,7 +181,7 @@ export const members = [
         year: "2026",
         image: Project_2Img,
         link: "https://cyan-baboon-990324.hostingersite.com/",
-        github: "#"
+        github: "https://github.com/Aeyac/College_of_Education_Registrars_Office_e-Services_and_Request_Tracking_System.git"
       },
       {
         id: 2,
@@ -189,15 +190,15 @@ export const members = [
         category: "APP",
         technologies: ["Java", "Mysqli", "CSS"],
         year: "2025",
-        image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=800",
+        image: Project_4Img,
         link: "#",
         github: "#"
       }
     ],
     socials: [
-      { id: 1, platform: "GitHub", url: "#" },
-      { id: 2, platform: "Instagram", url: "#" },
-      { id: 3, platform: "Facebook", url: "#" }
+      { id: 1, platform: "GitHub", url: "https://github.com/Jaylyn8?fbclid=IwY2xjawUXH3twZG9mBWV4dG4DYWVtAjEwAGJyaWQRMUV5QlRXS3FGektIWUVGd2pzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeNlST1LnYcy5zgIZF8ydbEfWrENtO3tpWjO95o_8ZJ3ESbphVTv9etoAteXs_aem_7jGOUp6xFMdNz1zRC9iwHg" },
+      { id: 2, platform: "Instagram", url: "https://www.instagram.com/livingricecooker?fbclid=IwY2xjawUXH4pwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMUV5QlRXS3FGektIWUVGd2pzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeiabJUtzhRSq-MquNBbftQ_gD7dLAS5jvz1fHTUCATGTTAJWhWJi1_Nj-NYU_aem_TXDODxdr1fCvXfrRby6G7w" },
+      { id: 3, platform: "Facebook", url: "https://www.facebook.com/share/1HxiX4Xarw/" }
     ]
   }
 ];
