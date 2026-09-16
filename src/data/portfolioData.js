@@ -5,6 +5,7 @@ import Project_1Img from '../assets/images/project_1.png';
 import Project_2Img from '../assets/images/project_2.png';
 import Project_3Img from '../assets/images/project_3.jpg';
 import Project_4Img from '../assets/images/project_4.jpg';
+import Project_5Img from '../assets/images/project_5.png';
 
 export const members = [
   {
@@ -15,7 +16,7 @@ export const members = [
     role: "Lead Developer",
     tagline: "Building scalable web solutions.",
     bio: "Passionate about creating clean, efficient, and responsive web applications. I focus on bridging the gap between design and engineering to build seamless user experiences.",
-    interests: ["Web Technologies", "System Architecture"],
+    interests: ["Web Technologies", "Software Development", "Full-Stack Web Development"],
     careerGoal: "To become a Full Stack Architect leading innovative tech projects.",
     education: [
       {
@@ -30,14 +31,14 @@ export const members = [
         degree: "Senior High School - ICT",
         institution: "Muñoz National High School",
         year: "2021 - 2023",
-        description: "Specialized in computer systems servicing logic."
+        description: "Specialized in Computer Systems Servicing logic."
       }
     ],
     skills: [
-      { id: 1, name: "Laravel", category: "Backend", level: 75 },
+      { id: 1, name: "Laravel", category: "Backend", level: 50 },
       { id: 2, name: "PHP", category: "Backend", level: 90 },
-      { id: 3, name: "React", category: "Frontend", level: 80 },
-      { id: 4, name: "Tailwind CSS", category: "Frontend", level: 95 },
+      { id: 3, name: "React", category: "Frontend", level: 60 },
+      { id: 4, name: "Tailwind CSS", category: "Frontend", level: 90 },
       { id: 5, name: "Bootstrap", category: "Frontend", level: 90 },
       { id: 7, name: "MySQL", category: "Database", level: 90 },
       { id: 7, name: "GitHub", category: "Tools", level: 90 },
@@ -65,6 +66,17 @@ export const members = [
         image: Project_2Img,
         link: "https://cyan-baboon-990324.hostingersite.com/",
         github: "https://github.com/Aeyac/College_of_Education_Registrars_Office_e-Services_and_Request_Tracking_System.git"
+      },
+      {
+        id: 3,
+        title: "WordPress Portfolio",
+        description: "A Responsive and User-friendly Wordpress Portfolio",
+        category: "UI/UX",
+        technologies: ["Wordpress"],
+        year: "2025",
+        image: Project_5Img,
+        link: "#",
+        github: "#"
       }
     ],
     socials: [
@@ -89,7 +101,7 @@ export const members = [
         degree: "Bachelor of Science in Information Technology",
         institution: "Central Luzon State University",
         year: "2024 - Present",
-        description: "Focusing on Web Applications Development II."
+        description: "Focusing on Software Systems and Web Applications Engineering."
       },
       {
         id: 2,
@@ -152,7 +164,7 @@ export const members = [
         degree: "Bachelor of Science in Information Technology",
         institution: "Central Luzon State University",
         year: "2024 - Present",
-        description: "Focusing on Web Applications Development II."
+        description: "Focusing on Software Systems and Web Applications Engineering."
       },
       {
         id: 2,
