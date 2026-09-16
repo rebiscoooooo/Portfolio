@@ -3,6 +3,7 @@ import sherynImg from '../assets/images/sheryn.jpg';
 import jayveeImg from '../assets/images/jayvee.jpg';
 import Project_1Img from '../assets/images/project_1.png';
 import Project_2Img from '../assets/images/project_2.png';
+import Project_3Img from '../assets/images/project_3.jpg';
 
 export const members = [
   {
@@ -32,8 +33,8 @@ export const members = [
       }
     ],
     skills: [
-      { id: 1, name: "React", category: "Frontend", level: 80 },
-      { id: 2, name: "Laravel", category: "Backend", level: 75 },
+      { id: 1, name: "Laravel", category: "Backend", level: 75 },
+      { id: 2, name: "React", category: "Frontend", level: 80 },
       { id: 3, name: "PHP", category: "Backend", level: 90 },
       { id: 4, name: "Tailwind CSS", category: "Frontend", level: 95 },
       { id: 5, name: "Bootstrap", category: "Frontend", level: 90 },
@@ -74,7 +75,7 @@ export const members = [
   },
   {
     id: 2,
-    name: "Sheryn Mae S. De Vera",
+    name: "Sheryn Mae P. De Vera",
     initials: "SD",
     image: sherynImg,
     role: "UI/UX Designer",
@@ -92,21 +93,18 @@ export const members = [
       },
       {
         id: 2,
-        degree: "Senior High School - Arts & Design",
-        institution: "Previous School",
-        year: "2024",
-        description: "Developed strong foundational skills in visual communication."
+        degree: "Senior High School - ABM",
+        institution: "Core Gateway College Inc.",
+        year: "2022-2024",
+        description: "Business and management-focused strand that develops skills in accounting, finance, entrepreneurship, and leadership."
       }
     ],
     skills: [
-      { id: 1, name: "Figma", category: "UI/UX", level: 95 },
-      { id: 2, name: "React", category: "Frontend", level: 80 },
-      { id: 3, name: "Tailwind CSS", category: "Frontend", level: 90 },
-      { id: 4, name: "Bootstrap", category: "Frontend", level: 85 },
-      { id: 5, name: "HTML", category: "Frontend", level: 95 },
-      { id: 6, name: "PHP", category: "Backend", level: 70 },
-      { id: 7, name: "Adobe XD", category: "UI/UX", level: 85 },
-      { id: 8, name: "Illustrator", category: "Tools", level: 90 }
+      { id: 1, name: "Figma", category: "UI/UX", level: 50 },
+      { id: 2, name: "Wordpress", category: "Frontend", level: 50 },
+      { id: 3, name: "Tailwind CSS", category: "Frontend", level: 50 },
+      { id: 4, name: "Bootstrap", category: "Frontend", level: 50 },
+      { id: 5, name: "HTML", category: "Frontend", level: 50 },
     ],
     projects: [
       {
@@ -122,12 +120,12 @@ export const members = [
       },
       {
         id: 2,
-        title: "Portfolio Template",
+        title: "Portfolio",
         description: "A reusable, responsive portfolio template for creatives.",
-        category: "WEB",
-        technologies: ["HTML", "CSS", "JS"],
+        category: "UI/UX",
+        technologies: ["Wordpress"],
         year: "2026",
-        image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800",
+        image: Project_3Img,
         link: "#",
         github: "#"
       }
@@ -143,10 +141,10 @@ export const members = [
     name: "Jayveelyn C. Vicente",
     initials: "JV",
     image: jayveeImg,
-    role: "Frontend Engineer",
+    role: "Frontend Developer",
     tagline: "Crafting interactive user interfaces.",
     bio: "Focused on bringing designs to life through clean code and smooth animations. I love exploring new frontend frameworks and optimizing web performance.",
-    interests: ["Frontend Architecture", "Web Animations", "Mobile Development"],
+    interests: ["Frontend Architecture", "Web Animations", "Website Development"],
     careerGoal: "To become a Senior Frontend Engineer at a top tech company.",
     education: [
       {
@@ -158,21 +156,19 @@ export const members = [
       },
       {
         id: 2,
-        degree: "Senior High School - ICT",
-        institution: "Previous School",
-        year: "2024",
-        description: "Specialized in computer programming and networking."
+        degree: "Senior High School - STEM",
+        institution: "Camp Tinio National High School",
+        year: "2022 - 2024",
+        description: "Specialized in science and engineering."
       }
     ],
     skills: [
-      { id: 1, name: "React", category: "Frontend", level: 90 },
-      { id: 2, name: "Vue.js", category: "Frontend", level: 80 },
-      { id: 3, name: "Tailwind CSS", category: "Frontend", level: 95 },
-      { id: 4, name: "Bootstrap", category: "Frontend", level: 90 },
-      { id: 5, name: "HTML", category: "Frontend", level: 95 },
-      { id: 6, name: "PHP", category: "Backend", level: 75 },
-      { id: 7, name: "CSS Animations", category: "UI/UX", level: 85 },
-      { id: 8, name: "Figma", category: "UI/UX", level: 80 }
+      { id: 1, name: "Tailwind CSS", category: "Frontend", level: 50 },
+      { id: 2, name: "Wordpress", category: "Frontend", level: 50 },
+      { id: 3, name: "Javascript", category: "Frontend", level: 50 },
+      { id: 4, name: "Bootstrap", category: "Frontend", level: 50 },
+      { id: 5, name: "HTML", category: "Frontend", level: 60 },
+      { id: 6, name: "PHP", category: "Backend", level: 50 }
     ],
     projects: [
       {
@@ -188,11 +184,11 @@ export const members = [
       },
       {
         id: 2,
-        title: "Weather Dashboard",
-        description: "Real-time weather application with beautiful animated icons.",
-        category: "WEB",
-        technologies: ["React", "API", "CSS"],
-        year: "2026",
+        title: "DinoBlocks",
+        description: "Interactive and challenging pixel pc game.",
+        category: "APP",
+        technologies: ["Java", "Mysqli", "CSS"],
+        year: "2025",
         image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=800",
         link: "#",
         github: "#"
@@ -200,7 +196,7 @@ export const members = [
     ],
     socials: [
       { id: 1, platform: "GitHub", url: "#" },
-      { id: 2, platform: "LinkedIn", url: "#" },
+      { id: 2, platform: "Instagram", url: "#" },
       { id: 3, platform: "Facebook", url: "#" }
     ]
   }
