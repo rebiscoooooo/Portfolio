@@ -1,14 +1,12 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaFacebook, FaBehance, FaDribbble, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const getSocialIcon = (platform) => {
   const icons = {
     'GitHub': <FaGithub size={20} />,
     'LinkedIn': <FaLinkedin size={20} />,
     'Facebook': <FaFacebook size={20} />,
-    'Behance': <FaBehance size={20} />,
-    'Dribbble': <FaDribbble size={20} />,
-    'Twitter': <FaTwitter size={20} />
+    'Instagram': <FaInstagram size={20} />
   };
   return icons[platform] || platform[0];
 };

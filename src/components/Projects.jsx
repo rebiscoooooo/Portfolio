@@ -37,7 +37,7 @@ const ProjectCard = ({ project }) => {
 const Projects = ({ projects }) => {
   const [activeFilter, setActiveFilter] = useState("ALL");
   
-  const filters = ["ALL", "WEB", "UI/UX", "MOBILE", "OTHER"];
+  const filters = ["ALL", "WEB", "UI/UX", "APP", "OTHER"];
   
   const filteredProjects = activeFilter === "ALL" 
     ? projects 

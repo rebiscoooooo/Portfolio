@@ -1,27 +1,22 @@
-import React from 'react';
-import { FaReact, FaNodeJs, FaFigma, FaHtml5, FaVuejs, FaGithub, FaPaintBrush, FaCss3Alt, FaLaravel, FaPhp, FaBootstrap, FaWordpress } from 'react-icons/fa';
-import { SiJavascript, SiMysql, SiTailwindcss, SiFirebase, SiVite } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaFigma, FaHtml5, FaVuejs, FaGithub, FaLaravel, FaPhp, FaBootstrap, FaWordpress} from 'react-icons/fa';
+import { SiJavascript, SiMysql, SiTailwindcss, SiVite } from 'react-icons/si';
 
 const getSkillIcon = (name) => {
   const iconMap = {
     'React': <FaReact className="text-blue-500" />,
-    'React.js': <FaReact className="text-blue-500" />,
     'JavaScript (ES6+)': <SiJavascript className="text-yellow-400" />,
     'Node.js': <FaNodeJs className="text-green-500" />,
     'MySQL': <SiMysql className="text-blue-600" />,
     'Figma': <FaFigma className="text-pink-500" />,
-    'Git & GitHub': <FaGithub className="text-textPrimary" />,
     'GitHub': <FaGithub className="text-textPrimary" />,
     'HTML/CSS': <FaHtml5 className="text-orange-500" />,
     'HTML': <FaHtml5 className="text-orange-500" />,
-    'Vue.js': <FaVuejs className="text-green-500" />,
-    'Vite': <SiVite className="text-purple-500" />,
     'Laravel': <FaLaravel className="text-red-500" />,
     'PHP': <FaPhp className="text-indigo-400" />,
     'Tailwind CSS': <SiTailwindcss className="text-cyan-400" />,
     'Bootstrap': <FaBootstrap className="text-purple-600" />,
     'Wordpress': <FaWordpress className='text-blue-600' />,
-    'Javascript': <SiJavascript className='text-yellow-500' />
+    'Javascript': <SiJavascript className='text-yellow-500' />,
   };
   return iconMap[name] || null;
 };
