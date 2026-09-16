@@ -17,7 +17,7 @@ export const members = [
     tagline: "Building scalable web solutions.",
     bio: "Passionate about creating clean, efficient, and responsive web applications. I focus on bridging the gap between design and engineering to build seamless user experiences.",
     interests: ["Web Technologies", "Software Development", "Full-Stack Web Development"],
-    careerGoal: "To become a Full Stack Architect leading innovative tech projects.",
+    careerGoal: "To become a Full Stack Web Developer leading innovative tech projects.",
     education: [
       {
         id: 1,
@@ -47,6 +47,17 @@ export const members = [
     projects: [
       {
         id: 1,
+        title: "WordPress Portfolio",
+        description: "A Responsive and User-friendly Wordpress Portfolio",
+        category: "UI/UX",
+        technologies: ["Wordpress"],
+        year: "2025",
+        image: Project_5Img,
+        link: "#",
+        github: "#"
+      },
+      {
+        id: 2,
         title: "Infinite-Limitless Website",
         description: "A full-stack website for displaying the products and company of our client with dashboard.",
         category: "WEB",
@@ -57,7 +68,7 @@ export const members = [
         github: "#"
       },
       {
-        id: 2,
+        id: 3,
         title: "CED E-Services",
         description: "CLSU, College of Education Registrar's E-Services",
         category: "WEB",
@@ -67,17 +78,6 @@ export const members = [
         link: "https://cyan-baboon-990324.hostingersite.com/",
         github: "https://github.com/Aeyac/College_of_Education_Registrars_Office_e-Services_and_Request_Tracking_System.git"
       },
-      {
-        id: 3,
-        title: "WordPress Portfolio",
-        description: "A Responsive and User-friendly Wordpress Portfolio",
-        category: "UI/UX",
-        technologies: ["Wordpress"],
-        year: "2025",
-        image: Project_5Img,
-        link: "#",
-        github: "#"
-      }
     ],
     socials: [
       { id: 1, platform: "GitHub", url: "https://github.com/rebiscoooooo" },
