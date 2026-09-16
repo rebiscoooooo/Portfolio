@@ -1,6 +1,8 @@
 import jayarImg from '../assets/images/jay-ar.jpg';
 import sherynImg from '../assets/images/sheryn.jpg';
 import jayveeImg from '../assets/images/jayvee.jpg';
+import Project_1Img from '../assets/images/project_1.png';
+import Project_2Img from '../assets/images/project_2.png';
 
 export const members = [
   {
@@ -11,7 +13,7 @@ export const members = [
     role: "Lead Developer",
     tagline: "Building scalable web solutions.",
     bio: "Passionate about creating clean, efficient, and responsive web applications. I focus on bridging the gap between design and engineering to build seamless user experiences.",
-    interests: ["Web Technologies", "System Architecture", "Open Source"],
+    interests: ["Web Technologies", "System Architecture"],
     careerGoal: "To become a Full Stack Architect leading innovative tech projects.",
     education: [
       {
@@ -19,48 +21,48 @@ export const members = [
         degree: "Bachelor of Science in Information Technology",
         institution: "Central Luzon State University",
         year: "2023 - Present",
-        description: "Focusing on Web Applications Development II."
+        description: "Focusing on Software Systems and Web Applications Engineering."
       },
       {
         id: 2,
         degree: "Senior High School - ICT",
         institution: "Muñoz National High School",
-        year: "2020 - 2023",
-        description: "Graduated with honors, specialized in computer systems servicing logic."
+        year: "2021 - 2023",
+        description: "Specialized in computer systems servicing logic."
       }
     ],
     skills: [
-      { id: 1, name: "React", category: "Frontend", level: 90 },
-      { id: 2, name: "Laravel", category: "Backend", level: 85 },
-      { id: 3, name: "PHP", category: "Backend", level: 85 },
+      { id: 1, name: "React", category: "Frontend", level: 80 },
+      { id: 2, name: "Laravel", category: "Backend", level: 75 },
+      { id: 3, name: "PHP", category: "Backend", level: 90 },
       { id: 4, name: "Tailwind CSS", category: "Frontend", level: 95 },
       { id: 5, name: "Bootstrap", category: "Frontend", level: 90 },
-      { id: 6, name: "Node.js", category: "Backend", level: 75 },
-      { id: 7, name: "MySQL", category: "Database", level: 85 },
-      { id: 8, name: "GitHub", category: "Tools", level: 85 },
-      { id: 9, name: "Figma", category: "UI/UX", level: 75 }
+      { id: 6, name: "Node.js", category: "Backend", level: 80 },
+      { id: 7, name: "MySQL", category: "Database", level: 90 },
+      { id: 8, name: "GitHub", category: "Tools", level: 90 },
+      { id: 9, name: "Figma", category: "UI/UX", level: 85 }
     ],
     projects: [
       {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "A full-stack e-commerce solution with cart and checkout functionality.",
+        title: "Infinite-Limitless Website",
+        description: "A full-stack website for displaying the products and company of our client with dashboard.",
         category: "WEB",
-        technologies: ["React", "Node.js", "MySQL"],
+        technologies: ["PHP", "Tailwind CSS", "MySQL"],
         year: "2025",
-        image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
-        link: "#",
+        image: Project_1Img,
+        link: "www.infinite-limitless.com",
         github: "#"
       },
       {
         id: 2,
-        title: "Inventory Management",
-        description: "Dashboard for tracking stock levels and sales in real-time.",
+        title: "CED E-Services",
+        description: "CLSU, College of Education Registrar's E-Services",
         category: "WEB",
-        technologies: ["React", "Tailwind", "Firebase"],
+        technologies: ["Laravel", "React Inertia", "Tailwind CSS" ,"MySQL"],
         year: "2026",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-        link: "#",
+        image: Project_2Img,
+        link: "https://cyan-baboon-990324.hostingersite.com/",
         github: "#"
       }
     ],
@@ -109,13 +111,13 @@ export const members = [
     projects: [
       {
         id: 1,
-        title: "Health Tracking App Design",
-        description: "A comprehensive UI/UX design for a personal wellness application.",
-        category: "UI/UX",
-        technologies: ["Figma", "Prototyping"],
-        year: "2025",
-        image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800",
-        link: "#",
+        title: "CED E-Services",
+        description: "CLSU, College of Education Registrar's E-Services",
+        category: "WEB",
+        technologies: ["Laravel", "React Inertia", "Tailwind CSS" ,"MySQL"],
+        year: "2026",
+        image: Project_2Img,
+        link: "https://cyan-baboon-990324.hostingersite.com/",
         github: "#"
       },
       {
@@ -175,13 +177,13 @@ export const members = [
     projects: [
       {
         id: 1,
-        title: "Task Management App",
-        description: "A mobile-first task manager with drag-and-drop functionality.",
-        category: "MOBILE",
-        technologies: ["React Native", "Firebase"],
-        year: "2025",
-        image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=800",
-        link: "#",
+        title: "CED E-Services",
+        description: "CLSU, College of Education Registrar's E-Services",
+        category: "WEB",
+        technologies: ["Laravel", "React Inertia", "Tailwind CSS" ,"MySQL"],
+        year: "2026",
+        image: Project_2Img,
+        link: "https://cyan-baboon-990324.hostingersite.com/",
         github: "#"
       },
       {
